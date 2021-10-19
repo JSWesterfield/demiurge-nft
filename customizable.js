@@ -9,5 +9,9 @@ const INDEX = 1;
 const TOTAL = 15;
 
 (async () => {
-    
+    const rarepress = new Rarepress();
+    await rarepress.init({ network: "mainnet", key: `m'/44'/60'/0'/0/${INDEX}` });
+    for(let i=0; i<TOTAL; i++) {
+        
+    }
 })
