@@ -4,7 +4,6 @@ NFT from AI-generated works of Art
 # Avatar Collection
 
 ![avatar](avatar.png)
-![avatars](avatars.gif)
 
 # Quickstart
 
@@ -20,6 +19,8 @@ node index
 # Customize
 
 You can also check out the [customizable.js](customizable.js) file to learn how you can tweak the derivation key path, which lets you generate every collection from a new address, derived from a single seed.
+
+![avatars](avatars.gif)
 
 # Learn more
 
