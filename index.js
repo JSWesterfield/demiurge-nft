@@ -1,6 +1,7 @@
 const { createAvatar } = require('@dicebear/avatars');
 const style = require('@dicebear/open-peeps');
 const Rarepress = require('rarepress');
+
 (async () => {
     const rarepress = new Rarepress();
     await rarepress.init({ network: "mainnet" })
@@ -20,5 +21,6 @@ const Rarepress = require('rarepress');
         await rarepress.fs.push(cid)
         await rarepress.fs.push(token.uri);
         let sent = await rarepress.token.send(token)
+        console.log(`[]`);
     }
  })
