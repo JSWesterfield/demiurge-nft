@@ -3,7 +3,8 @@ NFT from AI-generated works of Art
 
 # Avatar Collection
 
-![avatars](avatar.png)
+![avatar](avatar.png)
+![avatars](avatars.gif)
 
 # Quickstart
 
