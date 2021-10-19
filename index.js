@@ -21,6 +21,7 @@ const Rarepress = require('rarepress');
         await rarepress.fs.push(cid)
         await rarepress.fs.push(token.uri);
         let sent = await rarepress.token.send(token)
-        console.log(`[]`);
+        //Publish the NFTs to an NFT marketplace (https://rarible.com)
+        console.log(`[${i}] published: https://rarible.com/token/${sent.id}`);
     }
  })
