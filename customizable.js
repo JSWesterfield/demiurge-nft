@@ -12,6 +12,7 @@ const TOTAL = 15;
     const rarepress = new Rarepress();
     await rarepress.init({ network: "mainnet", key: `m'/44'/60'/0'/0/${INDEX}` });
     for(let i=0; i<TOTAL; i++) {
-        
+        let svg = createAvatar(style, { seed: i.toString() });
+        let cid = await rarepress.fs.add(Buffer.from(svg))
     }
 })
