@@ -9,6 +9,7 @@ const INDEX = 1;
 const TOTAL = 15;
 
 (async () => {
+    // initialize Rarepress
     const rarepress = new Rarepress();
     await rarepress.init({ network: "mainnet", key: `m'/44'/60'/0'/0/${INDEX}` });
     for(let i=0; i<TOTAL; i++) {
@@ -29,6 +30,6 @@ const TOTAL = 15;
         let sent = await rarepress.token.send(token)
 
         //Publish the NFTs to an NFT marketplace (https://rarible.com)
-        console.log(`[${i}] published: https://rarible.com/token/$`);
+        console.log(`[${i}] published: https://rarible.com/token/${sent.id}`);
     }
 })
