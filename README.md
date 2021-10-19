@@ -1,10 +1,8 @@
-# demiurge-nft
+# Demiurge NFT
+NFT from AI-generated works of Art
 
 # Avatar Collection
 
-> Build your own Generative Art NFT Collection in 1 minute.
-
-![avatars](avatars.gif)
 
 # Quickstart
 
