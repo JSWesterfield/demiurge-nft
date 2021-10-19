@@ -7,9 +7,9 @@ const Rarepress = require('rarepress');
     for(let i= 0; i < 1000; i++ ) {
         // image to tokenize is the svg or created Avatar 
         let svg = createAvatar(style, {seed: i.toString() });
-        // 
+        // attach client id to this avatar
         let cid = await rarepress.fs.add(Buffer.from(svg))
-        // tokenize the image
+        // tokenize the image using rarepress, that creates a token locally
         let token = await rarepress.token.createAvatar({
             metadata: {
                 name: `${1}`,
