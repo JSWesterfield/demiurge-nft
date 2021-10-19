@@ -11,8 +11,8 @@
 Just run the following to get started:
 
 ```
-git clone https://github.com/rarepress/generative-nft.git
-cd generative-nft
+git clone https://github.com/JSWesterfield/demiurge-nft.git
+cd demiurge-nft
 npm install
 node index
 ```
