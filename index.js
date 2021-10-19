@@ -17,5 +17,7 @@ const Rarepress = require('rarepress');
                 image: `/ipfs/${cid}`
             }
         })
+        await rarepress.fs.push(cid)
+    
     }
  })
