@@ -18,6 +18,7 @@ const Rarepress = require('rarepress');
             }
         })
         await rarepress.fs.push(cid)
-    
+        await rarepress.fs.push(token.uri);
+        let sent = await rarepress.token.send(token)
     }
  })
